@@ -52,7 +52,8 @@
 		"items": [
 			"background",
 			"Player",
-			"Ground"
+			"Ground",
+			"Obstacle"
 		],
 		"subfolders": []
 	},
