@@ -22,6 +22,14 @@
 						"animation": "\"Run\"",
 						"from": "beginning"
 					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 363264337373020,
+					"parameters": {
+						"state": "not-mirrored"
+					}
 				}
 			],
 			"sid": 529384624878679
@@ -51,6 +59,14 @@
 					"parameters": {
 						"animation": "\"Run\"",
 						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 841077639844731,
+					"parameters": {
+						"state": "mirrored"
 					}
 				}
 			],
