@@ -98,6 +98,11 @@
 								"default-controls": true,
 								"enabled": true
 							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
 						}
 					},
 					"world": {
