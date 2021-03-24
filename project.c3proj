@@ -27,7 +27,8 @@
 	"objectTypes": {
 		"items": [
 			"background",
-			"Player"
+			"Player",
+			"Ground"
 		],
 		"subfolders": []
 	},
