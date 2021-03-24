@@ -66,7 +66,37 @@
 		{
 			"name": "Layer 1",
 			"overriden": 0,
-			"instances": [],
+			"instances": [
+				{
+					"type": "Player",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 3,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 200,
+						"y": 658,
+						"width": 94,
+						"height": 172,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 594168005541669,
 			"effectTypes": [],
 			"isInitiallyVisible": true,

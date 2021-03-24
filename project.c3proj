@@ -13,12 +13,21 @@
 			"author": "Scirra",
 			"version": "r241",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
 		}
 	],
 	"uniqueId": "2ads04q0bm1",
 	"objectTypes": {
 		"items": [
-			"background"
+			"background",
+			"Player"
 		],
 		"subfolders": []
 	},
