@@ -23,6 +23,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -53,7 +61,8 @@
 			"background",
 			"Player",
 			"Ground",
-			"Obstacle"
+			"Obstacle",
+			"Keyboard"
 		],
 		"subfolders": []
 	},
