@@ -283,12 +283,12 @@
 					}
 				],
 				"sid": 958997085702646,
-				"name": "Running",
-				"isLooping": false,
+				"name": "Run",
+				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 5
+				"speed": 10
 			},
 			{
 				"frames": [
