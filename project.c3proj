@@ -62,7 +62,8 @@
 			"Player",
 			"Ground",
 			"Obstacle",
-			"Keyboard"
+			"Keyboard",
+			"Sprite"
 		],
 		"subfolders": []
 	},
