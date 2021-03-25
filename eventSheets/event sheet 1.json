@@ -78,6 +78,36 @@
 				{
 					"id": "else",
 					"objectClass": "System",
+					"sid": 369438027960432
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 277840692726905,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 659429916839623,
+					"parameters": {
+						"animation": "\"Jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 559160229290323
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
 					"sid": 336798912336609
 				}
 			],
