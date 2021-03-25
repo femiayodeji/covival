@@ -303,7 +303,7 @@
 					}
 				},
 				{
-					"type": "virus1",
+					"type": "Virus1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Idle",
@@ -326,6 +326,56 @@
 						"y": 789.5,
 						"width": 110,
 						"height": 109,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Virus2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						},
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 2481,
+						"y": 793.5,
+						"width": 168,
+						"height": 155,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

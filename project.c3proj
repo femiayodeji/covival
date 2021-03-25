@@ -64,7 +64,8 @@
 			"Obstacle",
 			"Keyboard",
 			"Sprite",
-			"virus1"
+			"Virus1",
+			"Virus2"
 		],
 		"subfolders": []
 	},
