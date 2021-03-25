@@ -154,6 +154,128 @@
 				}
 			],
 			"sid": 110142212677467
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 287950374532351
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Virus2",
+					"sid": 215196436644123,
+					"parameters": {
+						"instance-variable": "VirusMove",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "Virus2",
+					"sid": 609208841893052,
+					"parameters": {
+						"distance": "-2"
+					}
+				}
+			],
+			"sid": 832295603867215
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Virus2",
+					"sid": 237852693677594,
+					"parameters": {
+						"instance-variable": "VirusMove",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Virus2",
+					"sid": 935930293084203,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 669562812715288,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Virus2",
+					"sid": 149172132080273,
+					"parameters": {
+						"instance-variable": "VirusMove",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 271614354428994
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 639011561041204
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Virus2",
+					"sid": 357360695865829,
+					"parameters": {
+						"instance-variable": "VirusMove",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Virus2",
+					"sid": 511507141067245,
+					"parameters": {
+						"state": "mirrored"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 518852221972650,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Virus2",
+					"sid": 894040599034073,
+					"parameters": {
+						"instance-variable": "VirusMove",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 490608894908254
 		}
 	],
 	"sid": 489673526722962
