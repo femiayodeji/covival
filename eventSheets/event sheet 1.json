@@ -123,6 +123,37 @@
 				}
 			],
 			"sid": 167012125654161
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 163588557816167
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Virus2",
+					"sid": 933452562452229,
+					"parameters": {
+						"instance-variable": "VirusMove",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "Virus2",
+					"sid": 836459638747792,
+					"parameters": {
+						"distance": "2"
+					}
+				}
+			],
+			"sid": 110142212677467
 		}
 	],
 	"sid": 489673526722962

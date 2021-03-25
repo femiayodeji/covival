@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 690652718064503,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "VirusMove",
+			"type": "number",
+			"desc": "The virus move on true and stop on false",
+			"sid": 112257964060310
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",

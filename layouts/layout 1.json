@@ -348,7 +348,9 @@
 						"live-preview": false
 					},
 					"uid": 11,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"VirusMove": 1
+					},
 					"behaviors": {
 						"Solid": {
 							"properties": {
