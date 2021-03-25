@@ -151,6 +151,15 @@
 					"parameters": {
 						"distance": "2"
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Virus2",
+					"sid": 740009472174252,
+					"parameters": {
+						"animation": "\"Roll\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 110142212677467
